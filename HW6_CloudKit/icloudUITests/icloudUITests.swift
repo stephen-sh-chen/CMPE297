@@ -2,7 +2,7 @@
 //  icloudUITests.swift
 //  icloudUITests
 //
-//  Created by Dao, Khanh on 11/17/16.
+//  Created by Stephen Chen on 10/05/2017
 //  Copyright © 2016 cmpe297. All rights reserved.
 //
 

@@ -7,125 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC353AA81F84953D008407E0 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC353AA71F84953D008407E0 /* CloudKit.framework */; };
-		DC9A2D681F75F4CA0044C277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A2D671F75F4CA0044C277 /* AppDelegate.swift */; };
-		DC9A2D6A1F75F4CA0044C277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A2D691F75F4CA0044C277 /* ViewController.swift */; };
-		DC9A2D6D1F75F4CA0044C277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A2D6B1F75F4CA0044C277 /* Main.storyboard */; };
-		DC9A2D6F1F75F4CA0044C277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9A2D6E1F75F4CA0044C277 /* Assets.xcassets */; };
-		DC9A2D721F75F4CA0044C277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9A2D701F75F4CA0044C277 /* LaunchScreen.storyboard */; };
-		DC9A2D7A1F7605200044C277 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9A2D791F7605200044C277 /* MapViewController.swift */; };
+		DC0EC74A1F9AE7CA006368FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EC7491F9AE7CA006368FA /* AppDelegate.swift */; };
+		DC0EC74C1F9AE7CA006368FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0EC74B1F9AE7CA006368FA /* ViewController.swift */; };
+		DC0EC74F1F9AE7CA006368FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0EC74D1F9AE7CA006368FA /* Main.storyboard */; };
+		DC0EC7511F9AE7CA006368FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0EC7501F9AE7CA006368FA /* Assets.xcassets */; };
+		DC0EC7541F9AE7CA006368FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0EC7521F9AE7CA006368FA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC353AA71F84953D008407E0 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
-		DC5A9A031F848E950059CDE6 /* HW5_Map_Kit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HW5_Map_Kit.entitlements; sourceTree = "<group>"; };
-		DC9A2D641F75F4CA0044C277 /* HW5_Map_Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW5_Map_Kit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC9A2D671F75F4CA0044C277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC9A2D691F75F4CA0044C277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC9A2D6C1F75F4CA0044C277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DC9A2D6E1F75F4CA0044C277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DC9A2D711F75F4CA0044C277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC9A2D731F75F4CA0044C277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC9A2D791F7605200044C277 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DC0EC7461F9AE7CA006368FA /* HW9_Fall_Detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW9_Fall_Detection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0EC7491F9AE7CA006368FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC0EC74B1F9AE7CA006368FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC0EC74E1F9AE7CA006368FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC0EC7501F9AE7CA006368FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC0EC7531F9AE7CA006368FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC0EC7551F9AE7CA006368FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DC9A2D611F75F4CA0044C277 /* Frameworks */ = {
+		DC0EC7431F9AE7CA006368FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC353AA81F84953D008407E0 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DC353AA41F849538008407E0 /* Frameworks */ = {
+		DC0EC73D1F9AE7CA006368FA = {
 			isa = PBXGroup;
 			children = (
-				DC353AA71F84953D008407E0 /* CloudKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DC9A2D5B1F75F4CA0044C277 = {
-			isa = PBXGroup;
-			children = (
-				DC9A2D661F75F4CA0044C277 /* HW5_Map_Kit */,
-				DC9A2D651F75F4CA0044C277 /* Products */,
-				DC353AA41F849538008407E0 /* Frameworks */,
+				DC0EC7481F9AE7CA006368FA /* HW9_Fall_Detection */,
+				DC0EC7471F9AE7CA006368FA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DC9A2D651F75F4CA0044C277 /* Products */ = {
+		DC0EC7471F9AE7CA006368FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DC9A2D641F75F4CA0044C277 /* HW5_Map_Kit.app */,
+				DC0EC7461F9AE7CA006368FA /* HW9_Fall_Detection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC9A2D661F75F4CA0044C277 /* HW5_Map_Kit */ = {
+		DC0EC7481F9AE7CA006368FA /* HW9_Fall_Detection */ = {
 			isa = PBXGroup;
 			children = (
-				DC5A9A031F848E950059CDE6 /* HW5_Map_Kit.entitlements */,
-				DC9A2D671F75F4CA0044C277 /* AppDelegate.swift */,
-				DC9A2D691F75F4CA0044C277 /* ViewController.swift */,
-				DC9A2D6B1F75F4CA0044C277 /* Main.storyboard */,
-				DC9A2D6E1F75F4CA0044C277 /* Assets.xcassets */,
-				DC9A2D701F75F4CA0044C277 /* LaunchScreen.storyboard */,
-				DC9A2D731F75F4CA0044C277 /* Info.plist */,
-				DC9A2D791F7605200044C277 /* MapViewController.swift */,
+				DC0EC7491F9AE7CA006368FA /* AppDelegate.swift */,
+				DC0EC74B1F9AE7CA006368FA /* ViewController.swift */,
+				DC0EC74D1F9AE7CA006368FA /* Main.storyboard */,
+				DC0EC7501F9AE7CA006368FA /* Assets.xcassets */,
+				DC0EC7521F9AE7CA006368FA /* LaunchScreen.storyboard */,
+				DC0EC7551F9AE7CA006368FA /* Info.plist */,
 			);
-			path = HW5_Map_Kit;
+			path = HW9_Fall_Detection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DC9A2D631F75F4CA0044C277 /* HW5_Map_Kit */ = {
+		DC0EC7451F9AE7CA006368FA /* HW9_Fall_Detection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC9A2D761F75F4CA0044C277 /* Build configuration list for PBXNativeTarget "HW5_Map_Kit" */;
+			buildConfigurationList = DC0EC7581F9AE7CA006368FA /* Build configuration list for PBXNativeTarget "HW9_Fall_Detection" */;
 			buildPhases = (
-				DC9A2D601F75F4CA0044C277 /* Sources */,
-				DC9A2D611F75F4CA0044C277 /* Frameworks */,
-				DC9A2D621F75F4CA0044C277 /* Resources */,
+				DC0EC7421F9AE7CA006368FA /* Sources */,
+				DC0EC7431F9AE7CA006368FA /* Frameworks */,
+				DC0EC7441F9AE7CA006368FA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HW5_Map_Kit;
-			productName = HW5_Map_Kit;
-			productReference = DC9A2D641F75F4CA0044C277 /* HW5_Map_Kit.app */;
+			name = HW9_Fall_Detection;
+			productName = HW9_Fall_Detection;
+			productReference = DC0EC7461F9AE7CA006368FA /* HW9_Fall_Detection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DC9A2D5C1F75F4CA0044C277 /* Project object */ = {
+		DC0EC73E1F9AE7CA006368FA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Stephen;
 				TargetAttributes = {
-					DC9A2D631F75F4CA0044C277 = {
+					DC0EC7451F9AE7CA006368FA = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.Push = {
-								enabled = 1;
-							};
-							com.apple.iCloud = {
-								enabled = 1;
-							};
-						};
 					};
 				};
 			};
-			buildConfigurationList = DC9A2D5F1F75F4CA0044C277 /* Build configuration list for PBXProject "HW5_Map_Kit" */;
+			buildConfigurationList = DC0EC7411F9AE7CA006368FA /* Build configuration list for PBXProject "HW9_Fall_Detection" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -133,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = DC9A2D5B1F75F4CA0044C277;
-			productRefGroup = DC9A2D651F75F4CA0044C277 /* Products */;
+			mainGroup = DC0EC73D1F9AE7CA006368FA;
+			productRefGroup = DC0EC7471F9AE7CA006368FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DC9A2D631F75F4CA0044C277 /* HW5_Map_Kit */,
+				DC0EC7451F9AE7CA006368FA /* HW9_Fall_Detection */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DC9A2D621F75F4CA0044C277 /* Resources */ = {
+		DC0EC7441F9AE7CA006368FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9A2D721F75F4CA0044C277 /* LaunchScreen.storyboard in Resources */,
-				DC9A2D6F1F75F4CA0044C277 /* Assets.xcassets in Resources */,
-				DC9A2D6D1F75F4CA0044C277 /* Main.storyboard in Resources */,
+				DC0EC7541F9AE7CA006368FA /* LaunchScreen.storyboard in Resources */,
+				DC0EC7511F9AE7CA006368FA /* Assets.xcassets in Resources */,
+				DC0EC74F1F9AE7CA006368FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DC9A2D601F75F4CA0044C277 /* Sources */ = {
+		DC0EC7421F9AE7CA006368FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9A2D6A1F75F4CA0044C277 /* ViewController.swift in Sources */,
-				DC9A2D7A1F7605200044C277 /* MapViewController.swift in Sources */,
-				DC9A2D681F75F4CA0044C277 /* AppDelegate.swift in Sources */,
+				DC0EC74C1F9AE7CA006368FA /* ViewController.swift in Sources */,
+				DC0EC74A1F9AE7CA006368FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DC9A2D6B1F75F4CA0044C277 /* Main.storyboard */ = {
+		DC0EC74D1F9AE7CA006368FA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9A2D6C1F75F4CA0044C277 /* Base */,
+				DC0EC74E1F9AE7CA006368FA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DC9A2D701F75F4CA0044C277 /* LaunchScreen.storyboard */ = {
+		DC0EC7521F9AE7CA006368FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DC9A2D711F75F4CA0044C277 /* Base */,
+				DC0EC7531F9AE7CA006368FA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -189,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DC9A2D741F75F4CA0044C277 /* Debug */ = {
+		DC0EC7561F9AE7CA006368FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		DC9A2D751F75F4CA0044C277 /* Release */ = {
+		DC0EC7571F9AE7CA006368FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,32 +270,30 @@
 			};
 			name = Release;
 		};
-		DC9A2D771F75F4CA0044C277 /* Debug */ = {
+		DC0EC7591F9AE7CA006368FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HW5_Map_Kit/HW5_Map_Kit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PKYKCYDR5;
-				INFOPLIST_FILE = HW5_Map_Kit/Info.plist;
+				DEVELOPMENT_TEAM = U7P4P976H4;
+				INFOPLIST_FILE = HW9_Fall_Detection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sjsu.297.icloud.stephen;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.HW9-Fall-Detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DC9A2D781F75F4CA0044C277 /* Release */ = {
+		DC0EC75A1F9AE7CA006368FA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = HW5_Map_Kit/HW5_Map_Kit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PKYKCYDR5;
-				INFOPLIST_FILE = HW5_Map_Kit/Info.plist;
+				DEVELOPMENT_TEAM = U7P4P976H4;
+				INFOPLIST_FILE = HW9_Fall_Detection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sjsu.297.icloud.stephen;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sjsu.HW9-Fall-Detection";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,25 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DC9A2D5F1F75F4CA0044C277 /* Build configuration list for PBXProject "HW5_Map_Kit" */ = {
+		DC0EC7411F9AE7CA006368FA /* Build configuration list for PBXProject "HW9_Fall_Detection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9A2D741F75F4CA0044C277 /* Debug */,
-				DC9A2D751F75F4CA0044C277 /* Release */,
+				DC0EC7561F9AE7CA006368FA /* Debug */,
+				DC0EC7571F9AE7CA006368FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC9A2D761F75F4CA0044C277 /* Build configuration list for PBXNativeTarget "HW5_Map_Kit" */ = {
+		DC0EC7581F9AE7CA006368FA /* Build configuration list for PBXNativeTarget "HW9_Fall_Detection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC9A2D771F75F4CA0044C277 /* Debug */,
-				DC9A2D781F75F4CA0044C277 /* Release */,
+				DC0EC7591F9AE7CA006368FA /* Debug */,
+				DC0EC75A1F9AE7CA006368FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DC9A2D5C1F75F4CA0044C277 /* Project object */;
+	rootObject = DC0EC73E1F9AE7CA006368FA /* Project object */;
 }

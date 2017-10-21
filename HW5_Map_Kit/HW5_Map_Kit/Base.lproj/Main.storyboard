@@ -163,26 +163,28 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.91922360749999998" green="0.91922360749999998" blue="0.91922360749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwl-8O-6mT">
-                                <rect key="frame" x="68" y="571" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Map"/>
-                                <connections>
-                                    <segue destination="rGj-88-WTf" kind="show" identifier="showMap" id="xA4-IL-RXq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3OK-fB-5R7">
                                 <rect key="frame" x="162" y="571" width="40" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Route"/>
                                 <connections>
+                                    <action selector="route:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eNb-V7-Dc8"/>
                                     <segue destination="rGj-88-WTf" kind="show" identifier="showRoute" id="TTs-Aw-GjK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wwl-8O-6mT">
+                                <rect key="frame" x="68" y="571" width="30" height="30"/>
+                                <state key="normal" title="Map"/>
+                                <connections>
+                                    <segue destination="rGj-88-WTf" kind="show" identifier="showMap" id="xA4-IL-RXq"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Wwl-8O-6mT" secondAttribute="bottom" constant="66" id="GKt-Rm-ENe"/>
                             <constraint firstItem="ZQV-Q7-XYL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LP6-VS-Jzc"/>
+                            <constraint firstItem="Wwl-8O-6mT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="noN-tP-Hkz"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -192,6 +194,7 @@
                         <outlet property="fromState" destination="A1Z-4q-tWw" id="Ab3-y0-Q7N"/>
                         <outlet property="fromStreet" destination="GcD-rV-vAS" id="SlS-Qr-ZoF"/>
                         <outlet property="fromZipCode" destination="aOX-ZJ-OSS" id="vvQ-W9-HNJ"/>
+                        <outlet property="route" destination="3OK-fB-5R7" id="ef4-72-AIV"/>
                         <outlet property="toCity" destination="Sgu-74-7eg" id="tZ2-cw-xwS"/>
                         <outlet property="toState" destination="zwO-de-qNI" id="eBF-vm-D3y"/>
                         <outlet property="toStreet" destination="KT7-jc-fE3" id="x4A-oy-5XE"/>
@@ -210,12 +213,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Mtx-Ao-mzX">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Mtx-Ao-mzX">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mtx-Ao-mzX" firstAttribute="trailing" secondItem="bqk-Pk-luS" secondAttribute="trailing" id="9iX-t5-pOC"/>
+                            <constraint firstItem="Mtx-Ao-mzX" firstAttribute="leading" secondItem="bqk-Pk-luS" secondAttribute="leading" id="WxR-EM-IdT"/>
+                            <constraint firstItem="Mtx-Ao-mzX" firstAttribute="top" secondItem="bqk-Pk-luS" secondAttribute="top" id="e2Y-SZ-ZcZ"/>
+                            <constraint firstItem="Mtx-Ao-mzX" firstAttribute="bottom" secondItem="bqk-Pk-luS" secondAttribute="bottom" id="m2M-id-nFJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="bqk-Pk-luS"/>
                     </view>
                     <connections>
